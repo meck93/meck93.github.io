@@ -101,7 +101,11 @@
       <div class="sidebar-wrapper">
         <!-- //profile-container -->
         <div class="profile-container">
-          <img class="profile" src="assets/images/profile-picture.jpg" alt="" />
+          <img
+            class="profile"
+            src="assets/images/profile-picture-2.jpg"
+            alt=""
+          />
           <h1 class="name">Moritz Eck</h1>
           <h3 class="tagline">CS Master Student @ University of Zurich</h3>
         </div>
@@ -199,6 +203,14 @@
               I'm a aspiring computer and data scientist pursuing a master's
               degree in computer science at the University of Zurich,
               Switzerland.
+            </p>
+            <p>
+              Currently, I'm spending a semester abroad, studying Computer
+              Science in Uppsala, Sweden.
+            </p>
+            <p>
+              I'm looking for a new opportunity as a software engineer (intern /
+              part-time 40-60%) starting as of July/August 2019!
             </p>
           </div>
           <!-- //summary -->
@@ -303,6 +315,49 @@
 
           <div class="item">
             <span class="project-title"
+              ><a
+                href="https://github.com/meck93/pytorch_chatbot_api"
+                target="_blank"
+                >[Deep Conversations] - A neural chatbot (Seq2Seq Neural
+                Network) in PyTorch</a
+              ></span
+            >
+            <div></div>
+            <span class="project-tagline"
+              >As a team of two (<a
+                href="https://github.com/cbrasser"
+                target="_blank"
+                >Claudio Brasser</a
+              >
+              and I), we have develop a deep neural network to act as a
+              human-like chatbot.
+              <ul>
+                <li>
+                  We have trained a sequence to sequence model on a dialogue
+                  dataset to read an input and produce a response
+                  (encoder-decoder architecture) in order to act as a human-like
+                  chatbot. For example, given an input: <i>"Hi, there!"</i>, the
+                  network learned to answer with:
+                  <i>"Hey, thanks, I'm doing well. How about yourself?"</i>.
+                </li>
+                <li>
+                  The network is trained in
+                  <a href="https://pytorch.org/" target="_blank">PyTorch</a> and
+                  deployed using a Python Flask server which is hosted on Heroku
+                  in order to interact with Facebook Messenger. The
+                  <a
+                    href="https://www.facebook.com/meckmessengerbot"
+                    target="_blank"
+                    >chatbot</a
+                  >
+                  is public but requires a Facebook account.
+                </li>
+              </ul></span
+            >
+          </div>
+
+          <div class="item">
+            <span class="project-title"
               ><a href="#" target="_blank"
                 >[Bachelor Thesis] - Intermittent Failure (Flaky) Test
                 Classifier</a
@@ -316,7 +371,7 @@
                 href="http://scikit-learn.org/stable/index.html"
                 target="_blank"
                 >scikit-learn</a
-              >, <a href="https://www.nltk.org/" target="_blank">nltk</a> and
+              >, <a href="https://www.nltk.org/" target="_blank">NLTK</a> and
               <a href="https://spacy.io/" target="_blank">spaCy</a> to classify
               ten different categories of intermittent test failures in a
               continuous integration system.</span
@@ -334,16 +389,22 @@
             >
             <div></div>
             <span class="project-tagline"
-              >As a team of four, we implemented the Kosmos board game
+              >As a part of a bachelor project (together with
+              <a href="https://github.com/alexscheitlin" target="_blank"
+                >Alex Scheitlin</a
+              >
+              and
+              <a href="https://github.com/nikzaugg" target="_blank">Nik Zaugg</a
+              >), we implemented the Kosmos board game of the year 2016
               <a
                 href="https://www.google.ch/search?q=kosmos+imhotep&oq=kosmos+imhotep"
                 target="_blank"
                 >"Imhotep"</a
               >
-              a multiplayer (2-4 players) online game based on the board game
-              "Imhotep". We implemented the game using Angular 2, Java + Spring
-              Boot, and a Hibernate database. To communicate between the back-
-              and frontend, we implemented a custom REST interace.</span
+              as a multiplayer (2-4 players) online game. We implemented the
+              front-end using Angular 2 and the backend using Java + Spring Boot
+              together with a Hibernate database. To communicate between the
+              front- and backend, we designed a REST interface.</span
             >
           </div>
           <!-- //item -->
@@ -372,7 +433,7 @@
 
             <div class="item">
               <h3 class="level-title">
-                Machine Learning (Scikit-Learn, Keras, XGBoost)
+                Machine Learning (Scikit-Learn, Keras, XGBoost, PyTorch)
               </h3>
               <div class="progress level-bar">
                 <div
@@ -419,6 +480,21 @@
 
             <div class="item">
               <h3 class="level-title">HTML5 &amp; CSS</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!-- //item -->
+
+            <div class="item">
+              <h3 class="level-title">Vue.JS</h3>
               <div class="progress level-bar">
                 <div
                   class="progress-bar theme-progress-bar"
